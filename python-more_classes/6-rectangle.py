@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Defines a Rectangle class."""
-
+import math
 
 class Rectangle:
     """Represent a rectangle.
@@ -80,4 +80,3 @@ class Rectangle:
         """Print a message for every deletion of a Rectangle."""
         type(self).number_of_instances -= 1
         print("Bye rectangle...")
-
